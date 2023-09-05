@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="css/ptl.css">
+    <title>Desafio da Tela de Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+
+            <div id="imagem"></div>
+
+            <div id="formulario">
+
+                <h1>Login</h1>
+
+                <p>Bem-vindo(a) ao meu site! Faça login para acessar.</p>
+
+                <form action="php/ptl.php" method="post">
+
+                    <div class="campo">
+
+                        <span class="material-symbols-outlined">
+                            login
+                        </span>
+
+                        <input type="email" name="email" id="idformemail" required placeholder="Seu e-mail aqui" autocomplete="email">
+
+                        <label for="idformemail">Login</label>
+
+                    </div>
+
+                    <div class="campo">
+
+                        <span class="material-symbols-outlined">
+                            password
+                        </span>
+
+                        <input type="password" name="password" id="idformpassword" required placeholder="Sua Senha" minlength="8" maxlength="25" autocomplete="current-password">
+
+                        <label for="idformpassword">Senha</label>
+
+                    </div>
+
+                    <input type="submit" value="Enviar">
+                    <a href="esqueci.html" id="botão">Esqueci a senha
+                        <span class="material-symbols-outlined">
+                        forward_to_inbox</span>
+                    </a>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
