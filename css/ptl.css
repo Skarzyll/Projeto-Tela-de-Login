@@ -131,6 +131,11 @@ form > a#botão > span {
 }
 
 @media screen and (min-width: 992px) {
+
+    body {
+        background: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
     section#login {
         width: 900px;
         height: 320px;
