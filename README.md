@@ -1,6 +1,6 @@
 # Projeto Tela de Login
 
-# Link do projeto: <a href="https://skarzyll.github.io/Projeto-Tela-de-Login/ptl.html">Projeto Tela de Login</a>
+# Link do projeto: <a href="https://skarzyll.github.io/Projeto-Tela-de-Login/">Projeto Tela de Login</a>
 
 Minha primeira tela de login totalmente responsiva com apena HTML e CSS
 
